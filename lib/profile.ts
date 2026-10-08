@@ -14,9 +14,17 @@ export const profile = {
   ],
   collaborators: ['Turing', 'Handshake', 'Leading AI labs'],
   contacts: [
-    { label: 'Email', value: 'terry@example.com', href: 'mailto:terry@example.com' },
-    { label: 'LinkedIn', value: 'in/terryhilliard', href: 'https://www.linkedin.com/in/terryhilliard' },
-    { label: 'GitHub', value: 'terryhilliard', href: 'https://github.com/terryhilliard' },
-    { label: 'IntelisAi Studio', value: 'View project', href: '#' },
+    { label: 'Email', value: 'onestopshopp76@gmail.com', href: 'mailto:onestopshopp76@gmail.com' },
+    {
+      label: 'LinkedIn',
+      value: 'in/terry-hilliard-5133391b7',
+      href: 'https://www.linkedin.com/in/terry-hilliard-5133391b7',
+    },
+    { label: 'GitHub', value: 'terry7676', href: 'https://github.com/terry7676' },
+    {
+      label: 'IntelisAi Studio',
+      value: 'terry7676/IntelisAIStudio',
+      href: 'https://github.com/terry7676/IntelisAIStudio',
+    },
   ],
 }
