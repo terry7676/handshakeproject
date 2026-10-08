@@ -2,7 +2,7 @@ import { profile } from '@/lib/profile'
 
 export function SkillsRow() {
   return (
-    <section aria-labelledby="skills-heading" className="flex flex-col gap-4">
+    <section aria-labelledby="skills-heading" className="neon-card flex flex-col gap-4 rounded-3xl p-6 hover:-translate-y-1 motion-reduce:transform-none sm:p-8">
       <h2 id="skills-heading" className="font-mono text-xs uppercase tracking-widest text-muted-foreground">
         Specialties
       </h2>

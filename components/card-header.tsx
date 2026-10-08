@@ -18,7 +18,7 @@ export function CardHeader() {
         </span>
       </div>
 
-      <div className="flex flex-col gap-4">
+      <div className="neon-card flex flex-col gap-4 rounded-3xl p-6 hover:-translate-y-1 motion-reduce:transform-none sm:p-10">
         <h1 className="text-balance text-5xl font-semibold leading-[0.95] tracking-tighter sm:text-7xl md:text-8xl">
           {profile.name}
         </h1>
