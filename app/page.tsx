@@ -19,7 +19,7 @@ export default function Page() {
         <CardHeader />
 
         <div className="flex flex-col gap-6">
-          <p className="text-pretty text-lg leading-relaxed text-foreground/85 sm:text-xl">{profile.bio}</p>
+          <p className="text-pretty text-lg leading-relaxed text-foreground/95 sm:text-xl">{profile.bio}</p>
           <p className="font-mono text-xs uppercase tracking-widest text-muted-foreground">
             {'Working with '}
             <span className="text-foreground">{profile.collaborators.join(' · ')}</span>
