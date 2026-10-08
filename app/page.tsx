@@ -12,7 +12,11 @@ export default function Page() {
       />
       <div
         aria-hidden="true"
-        className="pointer-events-none absolute -top-40 left-1/2 size-[36rem] -translate-x-1/2 rounded-full bg-primary/10 blur-3xl"
+        className="pointer-events-none absolute -top-40 left-1/4 size-[36rem] -translate-x-1/2 rounded-full bg-primary/10 blur-3xl"
+      />
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute -bottom-48 right-0 size-[34rem] translate-x-1/4 rounded-full bg-[var(--neon-blue)]/10 blur-3xl"
       />
 
       <article className="relative flex w-full max-w-3xl flex-col gap-12">
