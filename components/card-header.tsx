@@ -19,7 +19,7 @@ export function CardHeader() {
       </div>
 
       <div className="flex flex-col gap-4">
-        <h1 className="neon-text text-balance pb-1 text-5xl font-semibold leading-[0.95] tracking-tighter sm:text-7xl md:text-8xl">
+        <h1 className="neon-text neon-glow text-balance pb-1 text-5xl font-bold leading-[0.95] tracking-tighter sm:text-7xl md:text-8xl">
           {profile.name}
         </h1>
         <p className="font-mono text-sm text-primary sm:text-base">{profile.role}</p>

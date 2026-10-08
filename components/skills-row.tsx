@@ -10,9 +10,9 @@ export function SkillsRow() {
         {profile.skills.map((skill) => (
           <li
             key={skill}
-            className="text-base font-medium after:ml-4 after:text-muted-foreground after:content-['/'] last:after:content-none"
+            className="text-lg font-semibold after:ml-4 after:text-muted-foreground after:content-['/'] last:after:content-none"
           >
-            <span className="neon-text">{skill}</span>
+            <span className="neon-text neon-glow-interactive">{skill}</span>
           </li>
         ))}
       </ul>
